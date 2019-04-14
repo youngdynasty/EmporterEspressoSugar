@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A649A5D722551AAC0045F6D6 /* libEmporterKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A649A5CF22551A7E0045F6D6 /* libEmporterKit.a */; };
+		A649A5D922551ADE0045F6D6 /* EmporterAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A649A5D822551ADE0045F6D6 /* EmporterAction.m */; };
+		A6F92B4622553AFA00E81BE2 /* FileActions in Copy Resources */ = {isa = PBXBuildFile; fileRef = A6F92B4322553AD900E81BE2 /* FileActions */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A649A5CE22551A7E0045F6D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A6FD1774224AB1DA00F3CB9B;
+			remoteInfo = EmporterKit;
+		};
+		A649A5D022551A7E0045F6D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A6FD1789224AB39800F3CB9B;
+			remoteInfo = EmporterKitTests;
+		};
+		A649A5D222551A7E0045F6D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A6FD1799224AB49500F3CB9B;
+			remoteInfo = EmporterKitTestHost;
+		};
+		A649A5D422551AA60045F6D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FD1773224AB1DA00F3CB9B;
+			remoteInfo = EmporterKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6F92B4522553AE600E81BE2 /* Copy Resources */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				A6F92B4622553AFA00E81BE2 /* FileActions in Copy Resources */,
+			);
+			name = "Copy Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A649A596225519C00045F6D6 /* Emporter.sugar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emporter.sugar; sourceTree = BUILT_PRODUCTS_DIR; };
+		A649A599225519C00045F6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmporterKit.xcodeproj; path = EmporterKit/EmporterKit.xcodeproj; sourceTree = "<group>"; };
+		A649A5D822551ADE0045F6D6 /* EmporterAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmporterAction.m; sourceTree = "<group>"; };
+		A649A5DA22551BE90045F6D6 /* EspressoFileActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EspressoFileActions.h; sourceTree = "<group>"; };
+		A649A5DB22551BE90045F6D6 /* EspressoActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EspressoActions.h; sourceTree = "<group>"; };
+		A677ED9C22637E3B009D4DCD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6F92B4322553AD900E81BE2 /* FileActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FileActions; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A649A593225519C00045F6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649A5D722551AAC0045F6D6 /* libEmporterKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A649A58D225519C00045F6D6 = {
+			isa = PBXGroup;
+			children = (
+				A677ED9C22637E3B009D4DCD /* README.md */,
+				A649A598225519C00045F6D6 /* EmporterEspressoSugar */,
+				A649A59F22551A740045F6D6 /* Vendor */,
+				A649A597225519C00045F6D6 /* Products */,
+				A649A5D622551AAC0045F6D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A649A597225519C00045F6D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A649A596225519C00045F6D6 /* Emporter.sugar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A649A598225519C00045F6D6 /* EmporterEspressoSugar */ = {
+			isa = PBXGroup;
+			children = (
+				A6F92B4322553AD900E81BE2 /* FileActions */,
+				A649A5D822551ADE0045F6D6 /* EmporterAction.m */,
+				A649A5DB22551BE90045F6D6 /* EspressoActions.h */,
+				A649A5DA22551BE90045F6D6 /* EspressoFileActions.h */,
+				A649A599225519C00045F6D6 /* Info.plist */,
+			);
+			path = EmporterEspressoSugar;
+			sourceTree = "<group>";
+		};
+		A649A59F22551A740045F6D6 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A649A5C922551A7E0045F6D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A649A5CF22551A7E0045F6D6 /* libEmporterKit.a */,
+				A649A5D122551A7E0045F6D6 /* EmporterKitTests.xctest */,
+				A649A5D322551A7E0045F6D6 /* EmporterKitTestHost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A649A5D622551AAC0045F6D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A649A595225519C00045F6D6 /* EmporterEspressoSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A649A59C225519C00045F6D6 /* Build configuration list for PBXNativeTarget "EmporterEspressoSugar" */;
+			buildPhases = (
+				A649A592225519C00045F6D6 /* Sources */,
+				A649A593225519C00045F6D6 /* Frameworks */,
+				A6F92B4522553AE600E81BE2 /* Copy Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A649A5D522551AA60045F6D6 /* PBXTargetDependency */,
+			);
+			name = EmporterEspressoSugar;
+			productName = EmporterEspressoSugar;
+			productReference = A649A596225519C00045F6D6 /* Emporter.sugar */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A649A58E225519C00045F6D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Young Dynasty";
+				TargetAttributes = {
+					A649A595225519C00045F6D6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A649A591225519C00045F6D6 /* Build configuration list for PBXProject "EmporterEspressoSugar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A649A58D225519C00045F6D6;
+			productRefGroup = A649A597225519C00045F6D6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A649A5C922551A7E0045F6D6 /* Products */;
+					ProjectRef = A649A5A322551A740045F6D6 /* EmporterKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A649A595225519C00045F6D6 /* EmporterEspressoSugar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A649A5CF22551A7E0045F6D6 /* libEmporterKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEmporterKit.a;
+			remoteRef = A649A5CE22551A7E0045F6D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A649A5D122551A7E0045F6D6 /* EmporterKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EmporterKitTests.xctest;
+			remoteRef = A649A5D022551A7E0045F6D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A649A5D322551A7E0045F6D6 /* EmporterKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EmporterKitTestHost.app;
+			remoteRef = A649A5D222551A7E0045F6D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A649A592225519C00045F6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649A5D922551ADE0045F6D6 /* EmporterAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A649A5D522551AA60045F6D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmporterKit;
+			targetProxy = A649A5D422551AA60045F6D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A649A59A225519C00045F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A649A59B225519C00045F6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A649A59D225519C00045F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EEQTQC5N2L;
+				HEADER_SEARCH_PATHS = "Vendor/EmporterKit/**";
+				INFOPLIST_FILE = EmporterEspressoSugar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngdynasty.EmporterEspressoSugar;
+				PRODUCT_MODULE_NAME = EmporterSugar;
+				PRODUCT_NAME = Emporter;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = sugar;
+			};
+			name = Debug;
+		};
+		A649A59E225519C00045F6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EEQTQC5N2L;
+				HEADER_SEARCH_PATHS = "Vendor/EmporterKit/**";
+				INFOPLIST_FILE = EmporterEspressoSugar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngdynasty.EmporterEspressoSugar;
+				PRODUCT_MODULE_NAME = EmporterSugar;
+				PRODUCT_NAME = Emporter;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = sugar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A649A591225519C00045F6D6 /* Build configuration list for PBXProject "EmporterEspressoSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A649A59A225519C00045F6D6 /* Debug */,
+				A649A59B225519C00045F6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A649A59C225519C00045F6D6 /* Build configuration list for PBXNativeTarget "EmporterEspressoSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A649A59D225519C00045F6D6 /* Debug */,
+				A649A59E225519C00045F6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A649A58E225519C00045F6D6 /* Project object */;
+}

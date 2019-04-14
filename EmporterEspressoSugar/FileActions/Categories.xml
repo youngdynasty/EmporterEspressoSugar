@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<action-categories>
+	<category id="net.youngdynasty.emporter" show="inline separated">
+        <title>Emporter</title>
+    </category>
+</action-categories>
