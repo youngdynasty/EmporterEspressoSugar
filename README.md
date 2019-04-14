@@ -1,6 +1,6 @@
 # Emporter Espresso Sugar
 
-A plugin for Emporter to create secure, public URLs to your site with [Emporter](https://emporter.app). Take Espresso to go!
+A plugin for [Espresso](https://espressoapp.com) to create secure, public URLs to your site with [Emporter](https://emporter.app). Take Espresso to go!
 
 ## Installation
 
