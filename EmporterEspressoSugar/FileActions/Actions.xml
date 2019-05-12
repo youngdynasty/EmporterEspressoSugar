@@ -2,7 +2,7 @@
 <action-recipes>
 	<action id="net.youngdynasty.emporter.configure" category="net.youngdynasty.emporter/1">
 		<class>EmporterAction</class>
-        <title>Configure...</title>
+        <title>Share URL…</title>
 		<setup>
             <action>configure</action>
 		</setup>
